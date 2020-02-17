@@ -5,24 +5,8 @@ fun main() {
 }
 
 private fun plusMinus(arr: Array<Int>) {
-    var positiveNumbers = 0
-    var negativeNumbers = 0
-    var zeroNumbers = 0
+    println(message = arr.filter { x -> x > 0 }.size.toFloat() / arr.size)
+    println(message = arr.filter { x -> x < 0}.size.toFloat() / arr.size)
+    println(message = arr.filter { x -> x == 0}.size.toFloat() / arr.size)
 
-    arr.forEach {
-        when {
-            it > 0 -> {
-                ++positiveNumbers
-            }
-            it < 0 -> {
-                ++ negativeNumbers
-            }
-            else -> {
-                ++zeroNumbers
-            }
-        }
-    }
-    println(message = positiveNumbers.toFloat()/ arr.size)
-    println(message = negativeNumbers.toFloat()/ arr.size)
-    println(message = zeroNumbers.toFloat()/ arr.size)
 }
