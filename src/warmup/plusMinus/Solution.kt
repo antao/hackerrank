@@ -1,15 +1,13 @@
 package warmup.plusMinus
 
-fun main(args: Array<String>) {
-    val arr = arrayOf(-4, 3, -9, 0, 4, 1)
-    plusMinus(arr)
+fun main() {
+    plusMinus(arrayOf(-4, 3, -9, 0, 4, 1))
 }
 
-private fun plusMinus(arr: Array<Int>): Unit {
-    var positiveNumbers = 0;
-    var negativeNumbers = 0;
-    var zeroNumbers = 0;
-    var total = arr.size
+private fun plusMinus(arr: Array<Int>) {
+    var positiveNumbers = 0
+    var negativeNumbers = 0
+    var zeroNumbers = 0
 
     arr.forEach {
         when {
@@ -24,7 +22,7 @@ private fun plusMinus(arr: Array<Int>): Unit {
             }
         }
     }
-    println(positiveNumbers.toFloat()/total)
-    println(negativeNumbers.toFloat()/total)
-    println(zeroNumbers.toFloat()/total)
+    println(message = positiveNumbers.toFloat()/ arr.size)
+    println(message = negativeNumbers.toFloat()/ arr.size)
+    println(message = zeroNumbers.toFloat()/ arr.size)
 }
