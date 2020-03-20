@@ -28,7 +28,7 @@ fun sockMerchant(n: Int, ar: Array<Int>): Int {
             sockColorHash.remove(it)
         }
         else {
-            sockColorHash.put(it, 1)
+            sockColorHash[it] = 1
         }
     }
     return pairsFound
