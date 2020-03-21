@@ -1,4 +1,4 @@
-package warmup.compareTriplets
+package algorithms.warmup
 
 fun main() {
     val result: Array<Int> = compareTriplets(arrayOf(17, 28, 30), arrayOf(99, 16, 8))

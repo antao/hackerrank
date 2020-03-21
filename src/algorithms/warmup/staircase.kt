@@ -1,4 +1,4 @@
-package warmup.staircase
+package algorithms.warmup
 
 fun main() {
     staircase(3)

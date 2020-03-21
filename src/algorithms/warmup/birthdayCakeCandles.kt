@@ -1,4 +1,4 @@
-package warmup.birthdayCakeCandles
+package algorithms.warmup
 
 fun main() {
     println(birthdayCakeCandles(arrayOf(3, 2, 1, 3)))

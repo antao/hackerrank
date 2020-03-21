@@ -1,4 +1,4 @@
-package warmup.plusMinus
+package algorithms.warmup
 
 fun main() {
     plusMinus(arrayOf(-4, 3, -9, 0, 4, 1))

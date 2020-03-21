@@ -1,5 +1,3 @@
-import java.io.Console
-
 // Complete the bonAppetit function below.
 fun bonAppetit(bill: Array<Int>, k: Int, b: Int): Unit {
     val items: Int = bill.indices

@@ -1,4 +1,4 @@
-package warmup.miniMaxSum
+package algorithms.warmup
 
 fun main() {
     miniMaxSum(arrayOf(256741038, 623958417, 467905213, 714532089, 938071625))

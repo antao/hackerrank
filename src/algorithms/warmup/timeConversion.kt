@@ -1,4 +1,4 @@
-package warmup.timeConversion
+package algorithms.warmup
 
 fun main() {
     println(timeConversion("07:05:45PM"))
