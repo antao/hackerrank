@@ -18,9 +18,7 @@ fun birthday(s: Array<Int>, d: Int, m: Int): Int {
 }
 
 fun main(args: Array<String>) {
-    val n = readLine()!!.trim().toInt()
-
-    val s = readLine()!!.trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
+    val s = readLine()!!.trimEnd().split(" ").map { it.toInt() }.toTypedArray()
 
     val dm = readLine()!!.trimEnd().split(" ")
 

@@ -6,7 +6,7 @@ fun main() {
 
 private fun plusMinus(arr: Array<Int>) {
     println(message = arr.filter { x -> x > 0 }.size.toFloat() / arr.size)
-    println(message = arr.filter { x -> x < 0}.size.toFloat() / arr.size)
-    println(message = arr.filter { x -> x == 0}.size.toFloat() / arr.size)
+    println(message = arr.filter { x -> x < 0 }.size.toFloat() / arr.size)
+    println(message = arr.filter { x -> x == 0 }.size.toFloat() / arr.size)
 
 }

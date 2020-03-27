@@ -6,6 +6,6 @@ fun main() {
 
 private fun staircase(n: Int) {
     for (x in 1..n) {
-        println(" ".repeat(n-x) + "#".repeat(x))
+        println(" ".repeat(n - x) + "#".repeat(x))
     }
 }

@@ -5,8 +5,8 @@ fun main() {
 }
 
 private fun birthdayCakeCandles(ar: Array<Int>): Int {
-    var max: Int = ar[0];
-    var result: Int = 1;
+    var max: Int = ar[0]
+    var result: Int = 1
 
     for (x in 1 until ar.size) {
         if (ar[x] == max) {

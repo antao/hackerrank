@@ -25,9 +25,7 @@ fun breakingRecords(scores: Array<Int>): Array<Int> {
 fun main(args: Array<String>) {
     val scan = Scanner(System.`in`)
 
-    val n = scan.nextLine().trim().toInt()
-
-    val scores = scan.nextLine().split(" ").map{ it.trim().toInt() }.toTypedArray()
+    val scores = scan.nextLine().split(" ").map { it.trim().toInt() }.toTypedArray()
 
     val result = breakingRecords(scores)
 

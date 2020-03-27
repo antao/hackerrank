@@ -6,7 +6,7 @@ fun main() {
 
 private fun timeConversion(s: String): String {
     val clockSystem = s.substring(8)
-    val hours = s.substring(0,2)
+    val hours = s.substring(0, 2)
     val remainingTime = s.substring(2, 8)
 
     return when {
