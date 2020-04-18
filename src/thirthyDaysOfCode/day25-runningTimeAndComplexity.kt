@@ -1,4 +1,5 @@
 package thirthyDaysOfCode
+
 import java.util.*
 import kotlin.math.sqrt
 

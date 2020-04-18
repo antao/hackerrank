@@ -1,4 +1,5 @@
 package thirthyDaysOfCode
+
 import java.util.Scanner;
 
 fun main(args: Array<String>) {
@@ -24,8 +25,7 @@ fun maxHourglass(arr: Array<IntArray>): Int {
     return result
 }
 
-private fun findSum(arr: Array<IntArray>, r: Int, c: Int): Int
-        = (arr[r + 0][c + 0]
+private fun findSum(arr: Array<IntArray>, r: Int, c: Int): Int = (arr[r + 0][c + 0]
         + arr[r + 0][c + 1]
         + arr[r + 0][c + 2]
         + arr[r + 1][c + 1]

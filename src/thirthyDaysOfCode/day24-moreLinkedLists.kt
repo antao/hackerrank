@@ -1,4 +1,5 @@
 package thirthyDaysOfCode
+
 import java.util.*
 
 class NodeDay24(var data: Int) {
