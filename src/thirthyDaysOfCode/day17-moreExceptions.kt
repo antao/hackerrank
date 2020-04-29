@@ -6,10 +6,9 @@ import kotlin.math.pow
 internal class Calculator {
     @Throws(Exception::class)
     fun power(n: Int, p: Int): Int {
-        return if (n < 0 || p < 0) {
-            throw Exception("n and p should be non-negative")
-        } else {
-            n.toDouble().pow(p.toDouble()).toInt()
+        return when {
+            n < 0 || p < 0 -> throw Exception("n and p should be non-negative")
+            else -> n.toDouble().pow(p.toDouble()).toInt()
         }
     }
 }
